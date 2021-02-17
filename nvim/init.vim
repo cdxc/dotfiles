@@ -6,13 +6,26 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
     
 call plug#begin()
-" here you'll add all the plugins needed"
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'joshdick/onedark.vim', {'branch': 'master'}
 	Plug 'morhetz/gruvbox'
 	Plug 'srcery-colors/srcery-vim'
+	Plug 'ghifarit53/tokyonight-vim'
+	Plug 'lifepillar/vim-solarized8'
+	Plug 'nanotech/jellybeans.vim'
 call plug#end()
 
+" Visuals
 set tabstop=4
+set shiftwidth=4 
+set numberwidth=4
+set number relativenumber
+colorscheme gruvbox 
+
 
 source $HOME/.config/nvim/plug-config/coc.vim
+
+
+
+
+
