@@ -13,6 +13,8 @@ call plug#begin()
 	Plug 'ghifarit53/tokyonight-vim'
 	Plug 'lifepillar/vim-solarized8'
 	Plug 'nanotech/jellybeans.vim'
+	Plug 'preservim/nerdcommenter'
+	Plug 'frazrepo/vim-rainbow'
 call plug#end()
 
 " Visuals
@@ -21,6 +23,7 @@ set shiftwidth=4
 set numberwidth=4
 set number relativenumber
 colorscheme gruvbox 
+set cursorline
 
 
 source $HOME/.config/nvim/plug-config/coc.vim
