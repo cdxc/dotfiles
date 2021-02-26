@@ -15,6 +15,8 @@ call plug#begin()
 	Plug 'nanotech/jellybeans.vim'
 	Plug 'preservim/nerdcommenter'
 	Plug 'frazrepo/vim-rainbow'
+
+	Plug 'udalov/kotlin-vim'
 call plug#end()
 
 " Visuals
@@ -22,7 +24,7 @@ set tabstop=4
 set shiftwidth=4 
 set numberwidth=4
 set number relativenumber
-colorscheme gruvbox 
+colorscheme srcery 
 set cursorline
 
 
